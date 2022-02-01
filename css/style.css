@@ -91,7 +91,7 @@ h2 {
     line-height: 2;
     color: rgb(0, 0, 0, 0.5);
     text-transform: uppercase;
-    letter-spacing: 0.003;
+    letter-spacing: 0.03em;
 }
 
 .top a {
