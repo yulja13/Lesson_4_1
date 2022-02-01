@@ -1,0 +1,114 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500italic&display=swap);
+
+@font-face {
+	font-family: "PoetsenOne";
+	src: url("../fonts/PoetsenOne-Regular.woff2") format("woff2"), url("../fonts/PoetsenOne-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cunia";
+	src: url("../fonts/Cunia.woff2") format("woff2"), url("../fonts/Cunia.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+nav {
+    text-align: right;
+}
+
+.list li {
+    color: rgb(42, 7, 199, 0.8);
+    line-height: 1.2;
+}
+
+.title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: red;
+    line-height: 2;
+    text-decoration: underline;
+    text-shadow: 0px 0px 10px rgb(235, 48, 48);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: #0b22f1;
+    line-height: 1.8;
+    
+}
+
+.examples li {
+    font-family: "PoetsenOne", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rule {
+    font-family: "Cunia", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 4;
+    text-transform: uppercase;
+    color: #bb0b1a;
+    text-align: center;
+    word-spacing: 6px;
+    
+}
+
+.questions li {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: oblique;
+    text-align: center;
+}
+
+.questions h2 {
+    text-align: center;
+}
+
+.contact {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2;
+    color: rgb(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.003;
+}
+
+.top a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.top {
+    text-align: right;
+    line-height: 2;
+}
+
+.block p {
+    text-indent: 20px;
+}
+
+
+
+
